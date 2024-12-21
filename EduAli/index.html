@@ -1,0 +1,31 @@
+<main>
+    <!-- Paste the Math Game HTML Here -->
+</main>
+<section id="math-game">
+    <h2>Math Game: Test Your Skills!</h2>
+    <button onclick="startGame()">Start Game</button>
+
+    <div id="game-area" style="display:none;">
+        <p id="problem"></p>
+        <input type="number" id="answer" placeholder="Enter your answer">
+        <button onclick="checkAnswer()">Submit</button>
+        <p id="feedback"></p>
+        <p>Score: <span id="score">0</span></p>
+        <p>Time Left: <span id="time">60</span> seconds</p>
+    </div>
+
+    <div id="game-over" style="display:none;">
+        <h3>Time's Up!</h3>
+        <p>Your final score: <span id="final-score"></span></p>
+        <button onclick="resetGame()">Play Again</button>
+    </div>
+</section>
+
+<!-- Link to your JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>
+<button onclick="checkAnswer()">Submit</button>
+<button onclick="resetGame()">Play Again</button>
+
+

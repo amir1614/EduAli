@@ -1,0 +1,81 @@
+/* General body styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Use Google Fonts or fallback to Arial */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light background color */
+    color: #333; /* Dark text color */
+    text-align: center; /* Center-align all content */
+}
+
+/* Header styling */
+h2 {
+    font-size: 2rem;
+    color: #4CAF50; /* Green color for the heading */
+    margin-top: 20px;
+}
+
+/* Style for the game area and game-over screen */
+#game-area, #game-over {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ddd; /* Add a border */
+    background-color: #fff; /* White background for sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 10px; /* Round corners */
+    display: inline-block; /* Keep it centered and compact */
+    max-width: 400px; /* Limit the width of the content */
+}
+
+/* Input field styling */
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    width: 80%; /* Make it responsive */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 5px;
+}
+
+/* Button styling */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded buttons */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Feedback text styling */
+#feedback {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Score and Timer styling */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #666; /* Subtle gray text */
+}
+
+/* Final score in game-over screen */
+#final-score {
+    font-size: 2rem;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Add spacing between sections */
+section {
+    margin-bottom: 40px;
+}
